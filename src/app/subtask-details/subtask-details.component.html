@@ -1,0 +1,25 @@
+<div >
+  <table style="width:90%">
+    <tr>
+      <th>SubTask ID</th>
+      <th>Task ID</th>
+      <th>Employee ID</th>
+      <th>SubTask Title</th>
+      <th>SubTask Description</th>
+      <th>Start Date</th>
+      <th>Due date</th>
+    </tr>
+    <tbody>
+    <tr *ngFor="let data of userData">
+      <td>{{data.subtaskid}}</td>
+      <td>{{data.taskid}}</td>
+      <td>{{data.employeeid}}</td>
+      <td>{{data.subtasktitle}}</td>
+      <td>{{data.subtaskdescription}}</td>
+      <td>{{data.startdate}}</td>
+      <td>{{data.duedate}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+

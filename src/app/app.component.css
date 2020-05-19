@@ -1,0 +1,44 @@
+
+#a{
+  padding-top:0px;
+  height:100px;
+  background-color:silver;
+  border-top:2 px solid black;
+  border-bottom:2 px solid black;
+  border-left:2 px solid black;
+  border-right:2 px solid black;
+}
+nav{
+  background-color:black;
+  height:80px;
+}
+nav ul li{
+  list-style-type:none;
+  width:150px;
+  float:left;
+
+  text-align:center;
+}
+
+li a{
+  text-decoration:none;
+  color:white;
+  line-height:80px;
+  display:block;
+  font-size:18px;
+}
+li a:hover{
+  background-color:#4CAF50;
+  color:green;
+}
+footer
+{
+  position: fixed;
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

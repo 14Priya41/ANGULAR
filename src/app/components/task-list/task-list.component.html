@@ -1,0 +1,28 @@
+<div >
+  <table style="width:90%">
+    <tr>
+      <th>Task ID</th>
+      <th>Project ID</th>
+      <th>Task Title</th>
+      <th>Task Description</th>
+      <th>Start Date</th>
+      <th>End Date</th>
+      <th>Subtask Count</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+    <tbody>
+    <tr *ngFor="let data of userData">
+      <td>{{data.taskid}}</td>
+      <td>{{data.projectid}}</td>
+      <td>{{data.tasktitle}}</td>
+      <td>{{data.taskdescription}}</td>
+      <td>{{data.startdate}}</td>
+      <td>{{data.enddate}}</td>
+      <td>{{data.subtaskcount}}</td>
+      <td>{{data.status}}</td>
+      <td><a routerLink="/details"><button class="btn btn-info" style="margin-left: 10px">Details</button></a></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
